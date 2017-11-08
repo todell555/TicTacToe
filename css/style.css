@@ -1,0 +1,81 @@
+/*TOC
+    - Global
+    - Page Structure
+    - Typography
+    - Lists
+*/
+
+/*-------------------->>> GLOBAL <<<---------------------*/
+
+body {
+  font-family: 'Play', sans-serif;
+  text-align:center;
+}
+
+
+/*-------------------->>> PAGE STRUCTURE <<<---------------------*/
+
+
+canvas {
+    position:relative;
+    text-align:center;
+}
+
+#mydialog {
+  display:none;
+}
+
+#opener {
+  margin-bottom: 30px;  
+}
+
+.ui-dialog-buttonpane {
+  height: 220px;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: none;
+  font-size: 40px;
+  padding-left: 30px;
+  text-align:center;
+}
+
+.ui-dialog .ui-dialog-title, .ui-dialog .ui-dialog-buttonpane {
+  text-align:center;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
+.buttons {
+  padding: 40px;
+}
+
+.buttonstoo {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#box {
+  display: block;
+  margin: 0px auto;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  text-align: center;
+  width:320px;
+}
+
+
+/*-------------------->>> TYPOGRAPHY <<<---------------------*/
+
+h1 {
+  font-size: 3em;
+  padding-bottom: 25px;
+  text-align:center;
+}
+
+

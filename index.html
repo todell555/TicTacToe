@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+
+  
+  <link rel='stylesheet prefetch' href='https://code.jquery.com/ui/1.9.1/themes/dark-hive/jquery-ui.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h1>Tic - Tac - Toe </h1>
+<div class="ui-dialog" id="mydialog">Choose a side!</div>
+
+<div id ="box">
+<canvas id="canvas1" width="100" height="100" style="border:2px solid black" onclick="player1Turn(1)"></canvas>
+<canvas id="canvas2" width="100" height="100" style="border:2px solid black" onclick="player1Turn(2)"></canvas>
+<canvas id="canvas3" width="100" height="100" style="border:2px solid black" onclick="player1Turn(3)"></canvas>
+<canvas id="canvas4" width="100" height="100" style="border:2px solid black" onclick="player1Turn(4)"></canvas>
+<canvas id="canvas5" width="100" height="100" style="border:2px solid black" onclick="player1Turn(5)"></canvas>
+<canvas id="canvas6" width="100" height="100" style="border:2px solid black" onclick="player1Turn(6)"></canvas>
+<canvas id="canvas7" width="100" height="100" style="border:2px solid black" onclick="player1Turn(7)"></canvas>
+<canvas id="canvas8" width="100" height="100" style="border:2px solid black" onclick="player1Turn(8)"></canvas>
+<canvas id="canvas9" width="100" height="100" style="border:2px solid black" onclick="player1Turn(9)"></canvas>
+</div>
+
+<div class="buttons">
+   <button class="buttonstoo" id="opener">Choose a Side!</button><button class="buttonstoo" type="button" onclick="resetGame()">Reset Game</button>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
