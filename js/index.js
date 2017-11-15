@@ -50,7 +50,8 @@ function myDialogue() {
          playerSymbol = "O";
          $(this).dialog('close');
          $("#box").show();
-         $("#buttons").show();
+         $("#opener").show();
+         $("#resetBtn").show();
        }}]
   }); 
 }
