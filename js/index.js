@@ -27,7 +27,8 @@ window.onload=function(){
     myDialogue();
     resetGame();
     $("#box").hide();
-    $("#buttons").hide();
+    $("#opener").hide();
+    $("#resetBtn").hide();
   });
 };
 
@@ -40,7 +41,8 @@ function myDialogue() {
         playerSymbol = "X";
         $(this).dialog('close');
         $("#box").show();
-        $("#buttons").show();
+        $("#opener").show();
+        $("#resetBtn").show();
       }},
      {
        text: 'O',
@@ -187,3 +189,4 @@ function resetGame() {
      c.width = c.width;  //clearRect shifted contents oddly, using this instead to clear canvases
   }
 }
+
